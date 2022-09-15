@@ -1,0 +1,153 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color:#ffe4c4;
+    color: #ff8257;
+    padding: 10px;
+    font-size: 20px;
+}
+
+section{
+    flex: 1 0 auto;
+}
+
+.nav li{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+}
+
+.nav a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.nav{
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+nav ul{
+    padding: 0;
+    display: flex;
+}
+
+nav a:hover{
+    color: gray;
+}
+
+.container{
+    border: #ffa889;
+    border-style: solid;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    border-radius: 8px;
+    text-align: center;
+    border-radius: 8px;
+    color: #ff8257;
+}
+
+.container input{ 
+    margin-bottom: 0.5rem;
+    border: 2px solid #ff8257;
+    border-radius: 8px; 
+    padding: 0.5rem; 
+    outline: none; 
+    }
+
+.container button{  
+    border: 2px solid #ff8257;
+    border-radius: 8px; 
+    padding: 0.5rem; 
+    outline: none; 
+    margin-bottom: 0.5rem;
+    width: 80px;
+    text-align: center;
+    background-color: #f5c88c;
+    color: #ff8257;
+}
+
+#calc{
+    background-color: #f5c88c;
+    border: #ff8257;
+    border-style: solid;
+    border-radius: 10px;    
+    padding: 10px;
+    height: 20px;
+}
+
+.resultado{
+    border: #ffa889;
+    border-style: solid;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    border-radius: 8px;
+    text-align: center;
+    border-radius: 8px;
+    color: #ff8257;
+    margin-bottom: 30px;
+}
+
+#resultados{
+    background-color: #f5c88c;
+    border: #ff8257;
+    border-style: solid;
+    border-radius: 10px;    
+    padding: 10px;
+    height: 20px;
+}
+
+.resultado input{ 
+    margin-bottom: 0.5rem;
+    border: 2px solid #ff8257;
+    border-radius: 8px; 
+    padding: 0.5rem; 
+    outline: none; 
+    height: 100px;
+}
+
+#result{
+    margin-top: 10px;
+    height: 30px;
+    background-color: #f5c88c;
+}
+
+.container-sobre{
+    border: #ffa889;
+    border-style: solid;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    border-radius: 8px;
+    text-align: center;
+    border-radius: 8px;
+    color: #ff8257;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: #d2691e;
+    color: white;
+    font-size: 15px;
+}
