@@ -151,3 +151,9 @@ footer{
     color: white;
     font-size: 15px;
 }
+
+#calculos{
+    border: #ffa889;
+    border-style: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

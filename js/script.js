@@ -1,5 +1,6 @@
 document.getElementById('convert').onclick = velocidade;
 document.getElementById('limpar').onclick = limpar;
+let velocidades = []
 
 function velocidade(){
     var d = document.getElementById("d").value;
@@ -16,8 +17,8 @@ function velocidade(){
     document.getElementById("d").value = parseFloat(d).toFixed();
     document.getElementById("t").value = parseFloat(t).toFixed();
     document.getElementById("result").value = parseFloat(result).toFixed(1);
-    document.getElementById("calculos").value = result
-
+    velocidades.push(result)
+    document.getElementById("calculos").value = velocidades
 }
 
 function limpar(){
